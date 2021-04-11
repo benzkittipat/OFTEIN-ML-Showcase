@@ -22,7 +22,7 @@ kittipat.sae@gmail.com
 
 
 
-<img src="Example\pictures\Logos.PNG" alt="Logos" style="zoom: 33%;" />
+<img src="pictures\Logos.PNG" alt="Logos" style="zoom: 33%;" />
 
 This is the example for IoTFunClass 2021 on 6th Aprill
 
@@ -53,13 +53,13 @@ support by https://github.com/IoTcloudServe
 
 ​	<u>Click Below</u> 
 
-​	<img src="Example\pictures\point_down.PNG" alt="point_down" style="zoom:40%;" />
+​	<img src="pictures\point_down.PNG" alt="point_down" style="zoom:40%;" />
 
 ​	[](https://covid-api.mmediagroup.fr/v1/history?country=Thailand&status=Deaths)
 
 Then we plot graphs Deaths VS. first 40 days 
 
-<img src="Example\pictures\Graph_01.PNG" alt="Graph_01" style="zoom:50%;" />
+<img src="pictures\Graph_01.PNG" alt="Graph_01" style="zoom:50%;" />
 
 Let's make some basic ML :) . In this workshop we used K-mean to classify How well the country tackle the covid-19 epidemics by using Covid-19 API. In your project, you can use any algorithm, Data set you want. 
 
@@ -71,35 +71,35 @@ Let's make some basic ML :) . In this workshop we used K-mean to classify How we
 
 ##### 		Example Raw Data 
 
-​		<img src="Example\pictures\JSON_raw.PNG" alt="JSON_raw" style="zoom:40%;" />
+​		<img src="pictures\JSON_raw.PNG" alt="JSON_raw" style="zoom:40%;" />
 
 using the pandas library , we got the data in panda Dataframe. Let X : confirmed cases, Y: deaths 
 
-<img src="Example\pictures\dataframe_01.PNG" alt="dataframe_01" style="zoom:50%;" />
+<img src="pictures\dataframe_01.PNG" alt="dataframe_01" style="zoom:50%;" />
 
 ##### Next, we will train our algorithm by processing all the data. Here the number of clusters will be 5. This number is given arbitrarily by us. we can choose any number to define the number of clusters
 
-<img src="Example\pictures\train_Kmean.PNG" alt="train_Kmean" style="zoom:50%;" />
+<img src="pictures\train_Kmean.PNG" alt="train_Kmean" style="zoom:50%;" />
 
 
 
 ##### we can see our 5 centers by using the following command
 
-<img src="Example\pictures\centriod.PNG" alt="centriod" style="zoom:50%;" />
+<img src="pictures\centriod.PNG" alt="centriod" style="zoom:50%;" />
 
 ##### To check the labels created, we can use the following command. It gives the labels created for our data
 
-![labels](Example\pictures\labels.PNG)
+![labels](pictures\labels.PNG)
 
 ##### We are going to use the fit predict method that returns for each observation which cluster it belongs to.it will return this cluster numbers into a single vector that is called y K-means
 
-![Predicts](Example\pictures\Predicts.PNG)
+![Predicts](pictures\Predicts.PNG)
 
 ##### plotting the results:
 
-![Graph_02](Example\pictures\Graph_02.PNG)
+![Graph_02](pictures\Graph_02.PNG)
 
-![table_01](Example\pictures\table_01.PNG)
+![table_01](pictures\table_01.PNG)
 
 ### saving output
 
@@ -107,5 +107,5 @@ using the pandas library , we got the data in panda Dataframe. Let X : confirmed
 
 since data2 is our output file is the panda dataframe, we can use to_csv to convert output to csv.
 
-<img src="Example\pictures\save2csv.PNG" alt="save2csv" style="zoom: 50%;" />
+<img src="pictures\save2csv.PNG" alt="save2csv" style="zoom: 50%;" />
 
