@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-## Request Data
+### Request Data
 Receive the responses from the API in json file, and filter the data in a proper and useful dataframe.
 ```
 response = requests.get('https://public.opendatasoft.com/api/records/1.0/search/?dataset=titanic-passengers&q=&rows=891&facet=survived&facet=pclass&facet=sex&facet=age&facet=embarked')
@@ -32,14 +32,14 @@ df.head()
 ```
 ![alt text](picture/picture1.png)
 
-## Pre-processing
-### Explore data
+### Pre-processing
+#### Explore data
 ```
 sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='viridis')
 ```
 ![alt text](picture/picture2.png)
 
-### Fill missing data
+#### Fill missing data
 fill the missing age data by considering p-class
 ```
 df.groupby('pclass')['age'].median()
@@ -83,7 +83,7 @@ sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='viridis')
 ```
 ![alt text](picture/picture5.png)
 
-### Drop unsignificant column
+#### Drop unsignificant column
 Eliminating the unsignificant columns for machine learning i.e. 'cabin', 'name', 'ticket', and 'passengerid'
 ```
 df.drop(['cabin','name','ticket','passengerid'],axis=1,inplace=True)
@@ -92,7 +92,7 @@ df.head()
 ```
 ![alt text](picture/picture6.png)
 
-### Convert categorical features
+#### Convert categorical features
 convert the string values of 'embarked', 'sex', and 'survived' into appicable form for computing machine learning.
 ```
 embarked = pd.get_dummies(df['embarked'],drop_first=True)
@@ -119,8 +119,8 @@ df.head()
 ```
 ![alt text](picture/picture10.png)
 
-## Building logistic regression model
-### train&test splitting
+### Building logistic regression model
+#### train&test splitting
 ```
 from sklearn.model_selection import train_test_split
 ```
@@ -130,7 +130,7 @@ X = df.drop('Yes',axis=1)
 y = df['Yes']
 X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.30, random_state=1010)
 ```
-### training & prediction
+#### training & prediction
 ```
 from sklearn.linear_model import LogisticRegression
 ```
@@ -144,7 +144,7 @@ Receive the predictions from the testing input data by the model.
 ```
 predictions = model.predict(X_test)
 ```
-## Evaluation
+### Evaluation
 Compare the predictions of the model with the testing output data.
 ```
 from sklearn.metrics import classification_report
