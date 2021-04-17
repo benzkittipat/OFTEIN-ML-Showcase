@@ -13,4 +13,4 @@ For this project, we are classifying handwritten digits from mnist_784 dataset u
 The dataset can be found [here](https://www.openml.org/d/554).
 
 <h1>เเก้ตรงนี้ ใส่ว่าทำไรบ้างซัก2-3ประโยค ใส่ลิ้งว่าเอาโค้ดมาจากไหน</h1>
-The model is modified from ... do ...
+The model is modified from a part of homework in 2110574 AI FOR ENGNINEER class [here](https://colab.research.google.com/drive/1n47yaji8oYVSQ0hpu1WaajAXsH4FeguY?usp=sharing)
