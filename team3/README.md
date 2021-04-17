@@ -4,7 +4,7 @@
 
 Members:
   1. Napat Laosaengpha <br>
-    email: , studentID: <h1>ใส่mail,id</h1>
+    email: napatnicky@gmail.com , studentID: 6030169021
   2. Satit Suknaibaiboon <br>
     email: satit456@gmail.com, studentID: 6030592821
 
