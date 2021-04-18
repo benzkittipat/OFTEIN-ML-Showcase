@@ -1,6 +1,6 @@
 # OFTEIN-ML-Showcase
 
-![alt text](https://github.com/napatnicky/OFTEIN-ML-Showcase/blob/main/team3/pictures/handwritten_digits.png?raw=true)
+![alt text](pictures/handwritten_digits.png)
 
 Members:
   1. Napat Laosaengpha <br>
