@@ -1,10 +1,14 @@
 # IoTFun project
 Dreamteam:
-| Name | Student ID |
-| --- | ----------- |
-| Thataphon Srisuthep | 6030155221 |
-| Natthakrit Toemphinijtham | 6030188021 |
-| Thanwalai Konghun | 6030282221 |
+| Name | Student ID | E-mail |
+| --- | ----------- | ------- |
+| Thataphon Srisuthep | 6030155221 | aegkevonline@hotmail.com |
+| Natthakrit Toemphinijtham | 6030188021 | nattakrit29436@gmail.com |
+| Thanwalai Konghun | 6030282221 | sdflksmdfm |
+
+This project uses machine learning to predict the survival of the passengers in the titanic.
+Titanic passengers API: https://public.opendatasoft.com/explore/dataset/titanic-passengers/table/
+
 
 ## BEGIN CODE
 ```
