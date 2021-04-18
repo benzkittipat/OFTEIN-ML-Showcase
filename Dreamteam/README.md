@@ -7,6 +7,7 @@ Dreamteam:
 | Thanwalai Konghun | 6030282221 | peam6660@gmail.com |
 
 This project uses machine learning to predict the survival of the passengers in the titanic.
+
 Titanic passengers API: https://public.opendatasoft.com/explore/dataset/titanic-passengers/table/
 
 
