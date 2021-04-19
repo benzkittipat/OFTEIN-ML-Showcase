@@ -6,6 +6,11 @@
     	ภีระพงศ์ คงบางปอ 6130421221 peerapong.k2000@gmail.com
     	จารุพจน์ ถนอมรักษ์ 6370453621 mapraw1997@hotmail.com
 
+## Create API 
+[![flask run.PNG](./pictures/flaskrun.PNG)] 
+
+
+
 ## Mobile Price Classification
 
 [![mobile-price-data.jpg](https://i.postimg.cc/KjQhHJ9y/mobile-price-data.jpg)](https://postimg.cc/Zv9Q9Ftf)
