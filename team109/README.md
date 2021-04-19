@@ -1,6 +1,7 @@
 # Repo_hw_group test
 
 ### รายชื่อสมาชิก
+| Name|ID|Email|
 |-------------|:--------:|-------------------:|
 |ศิวนาถ เจียรวงศ์ตระกูล |6370465121 |nonehjung@gmail.com|
 |ภาธร กิติศุภวัฒนา |6130413221 |6130413221@student.chula.ac.th|
@@ -22,7 +23,7 @@
 
 
 ## Create API 
-###We create API myself with Flask library Python because we cannot use kaggle API. 
+We create API myself with Flask library Python because we cannot use kaggle API. 
 Before downloading API, we must type activte in virtual environment in Script folder
 and flask run in venv folder.
 ![flaskrun.PNG](./pictures/flaskrun.PNG)
