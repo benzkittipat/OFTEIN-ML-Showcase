@@ -58,7 +58,12 @@ pre-processing data and create one hot encoder for classifying with Neural netwo
 [![classification visualization 2.png](https://i.postimg.cc/TwBm2QTV/classification-visualization-2.png)](https://postimg.cc/Kkr4JPkj)
 
 
-
+### Discussion
+Support vector classification and K-means clustering are machine learning method. They are suitable for classifying
+task. In reality, higher specification of smart phone usually has higher price so we can use any type of classification to find the seperating line between classified price. 
+Therefore, the accuracy of them are more than 90%. 
+However, Neural network shows a bad accuracy because we have not experience about the way
+to improve an accuracy so it has only around 75 %.
 
 ### Reference
 [Kaggle] (https://www.kaggle.com/iabhishekofficial/mobile-price-classification)
