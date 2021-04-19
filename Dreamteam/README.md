@@ -90,6 +90,8 @@ sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='viridis')
 
 #### Drop unsignificant column
 Eliminating the unsignificant columns for machine learning i.e. 'cabin', 'name', 'ticket', and 'passengerid'
+
+For the input features i.e. 'cabin', 'name', 'ticket' and  'passengerid' that were dropped out because they were considered to be irrelevant to the survival of the passengers. Also, some of them are in form of string that is hard to be computed for machine learning.
 ```
 df.drop(['cabin','name','ticket','passengerid'],axis=1,inplace=True)
 
@@ -145,17 +147,20 @@ model = LogisticRegression()
 model.fit(X_train,y_train)
 ```
 
-Receive the predictions from the testing input data by the model.
+
+
+Receive the output from the testing input data of the model.
 ```
-predictions = model.predict(X_test)
+output = model.predict(X_test)
 ```
 ### Evaluation
-Compare the predictions of the model with the testing output data.
+Compare the output of the model with the testing output data.
 ```
 from sklearn.metrics import classification_report
 ```
 ```
-print(classification_report(y_test,predictions))
+print(classification_report(y_test,output))
 ```
 ![alt text](picture/picture11.png)
+According to the results obtianed above, The precision and recall lead to the values of f1-score which are divided into 'Dead' and 'Survived' classes with the values of 0.85 and 0.74, respectively. The accuracy of the f1-score is computed to be 0.81 which is high as the maximum possible value of accuracy is 1.00 (indicating perfect precision and recall)
 
