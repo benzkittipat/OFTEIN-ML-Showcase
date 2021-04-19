@@ -3,6 +3,8 @@
 ## Mobile Price Classification
 
 [![mobile-price-data.jpg](https://i.postimg.cc/KjQhHJ9y/mobile-price-data.jpg)](https://postimg.cc/Zv9Q9Ftf)
+[![classification visualization 1.png](https://i.postimg.cc/KjQhHJ9y/mobile-price-data.jpg)](https://postimg.cc/Zv9Q9Ftf)
+[![classification visualization 2.png](https://i.postimg.cc/KjQhHJ9y/mobile-price-data.jpg)](https://postimg.cc/Zv9Q9Ftf)
 
 ### Using model
 
